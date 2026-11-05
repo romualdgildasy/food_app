@@ -8,7 +8,7 @@ class SplashWidget extends StatelessWidget {
   final Widget child, nextPage;
   const SplashWidget({
     Key? key,
-    this.time = 3000, // Default splash time of 3 seconds
+    this.time = 3, // Default splash time of 3 seconds
     required this.child,
     required this.nextPage,
   });
