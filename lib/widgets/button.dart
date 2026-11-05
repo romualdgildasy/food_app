@@ -32,7 +32,7 @@ class CButton extends StatelessWidget {
         shape: WidgetStateProperty.all(
           RoundedRectangleBorder(
             side: border
-                ? BorderSide(color: borderColor ?? Config.colors.primaryColor)
+                ? BorderSide(color: borderColor ?? Config.colors.primaryColor, width: 2)
                 : BorderSide.none,
             borderRadius: BorderRadius.circular(radius),
           ),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/config/config.dart';
 import 'package:food_app/widgets/button.dart';
+import 'package:food_app/widgets/textField.dart';
 
 class Home extends StatelessWidget {
 
@@ -12,8 +14,12 @@ class Home extends StatelessWidget {
           children:[
             Text("Welcome to the Home Screen"),
             CButton(
-              title: "Click Me" 
+              title: "Click Me" ,
+              color: Colors.transparent,
+              titleColor: Config.colors.primaryColor,
+              border: true,
             ),
+            CTextfield(hint: "Enter your text here...")
           ],
         ),
       ),
