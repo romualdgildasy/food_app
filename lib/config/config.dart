@@ -7,6 +7,7 @@ class Config {
 class _Color {
   final primaryColor = Color(0xFFFFA451);
   final primaryTextColor = Color(0xFF27214D);
+  final subtitleColor = Color(0xFF5D577E);
   final accentTextColor = Color(0xFF938DB5);
   final greenColor = Color(0xFF4CD964);
   final backgroundTextField = Color(0xFFF3F1F1);
@@ -15,4 +16,5 @@ class _Color {
 
 class _Assets {
   final splash_img = 'assets/images/splash_img.png';
+  final welcome_img = 'assets/images/basket-of-fruit-cartoon.png';
 }

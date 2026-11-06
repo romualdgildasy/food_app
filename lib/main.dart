@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/config/config.dart';
-import 'package:food_app/screens/home.dart';
 import 'package:food_app/screens/splashscreen.dart';
+import 'package:food_app/screens/welcome.dart';
 import 'package:food_app/widgets/splash.dart';
 
 void main() {
@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       home: SplashWidget(
         child: Splashscreen(),
-        nextPage: Home(),
-        time: 120,
+        nextPage: Welcome(),
+        time: 12,
       ),
     );
   }
