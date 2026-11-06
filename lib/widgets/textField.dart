@@ -6,7 +6,7 @@ class CTextfield extends StatelessWidget {
   final String? hint;
   final double? raduis;
 
-  const CTextfield({super.key, this.backgroundColor, this.hint, this.raduis = 15});
+  const CTextfield({super.key, this.backgroundColor, this.hint, this.raduis = 15, required FontWeight fontWeight});
  
   @override
   Widget build(BuildContext context) {

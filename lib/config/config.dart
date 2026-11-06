@@ -17,4 +17,5 @@ class _Color {
 class _Assets {
   final splash_img = 'assets/images/splash_img.png';
   final welcome_img = 'assets/images/basket-of-fruit-cartoon.png';
+  final authentification_img = 'assets/images/kisspng-fruit-basket.png';
 }

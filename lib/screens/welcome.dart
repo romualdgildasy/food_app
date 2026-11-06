@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/config/config.dart';
 import 'package:food_app/config/function.dart';
+import 'package:food_app/screens/authentification.dart';
 import 'package:food_app/widgets/button.dart';
 
 class Welcome extends StatelessWidget {
@@ -51,7 +52,10 @@ class Welcome extends StatelessWidget {
                     ),
                   CButton(
                     height: 20,
-                    title: "Let’s Continue"
+                    title: "Let’s Continue",
+                    onPressed: (){
+                      route(context, Authentification());
+                    },
                   )
                 ]
               ),
