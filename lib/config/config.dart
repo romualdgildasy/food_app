@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+
 class Config {
-  static final  colors = _Color();
+  static final colors = _Color();
   static final assets = _Assets();
+  static final styles = _Style();
 }
 
 class _Color {
@@ -18,4 +20,13 @@ class _Assets {
   final splash_img = 'assets/images/splash_img.png';
   final welcome_img = 'assets/images/basket-of-fruit-cartoon.png';
   final authentification_img = 'assets/images/kisspng-fruit-basket.png';
+  final food_img = 'assets/images/Glowing-Berry-Fruit-Salad.png';
+}
+
+class _Style {
+  final titleStyle = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+    color: Config.colors.primaryTextColor,
+  );
 }
