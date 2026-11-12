@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_app/config/config.dart';
 import 'package:food_app/config/function.dart';
 import 'package:food_app/screens/authentification.dart';
+import 'package:food_app/screens/foodPage.dart';
 import 'package:food_app/widgets/button.dart';
 
 class Welcome extends StatelessWidget {
