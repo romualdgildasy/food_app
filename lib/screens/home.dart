@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/config/config.dart';
 import 'package:food_app/widgets/button.dart';
+import 'package:food_app/widgets/customFood.dart';
 import 'package:food_app/widgets/foodCart.dart';
 import 'package:food_app/widgets/textField.dart';
 
@@ -30,6 +31,14 @@ class Home extends StatelessWidget {
               price: "2,000",
               asset: Config.assets.food_img,
             ),
+            Customfood(
+              titles: [
+                "Hottest",
+                "Popular",
+                "New Combo",
+                "Top"
+              ],
+            )
           ],
         ),
       ),
