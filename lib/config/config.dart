@@ -20,7 +20,13 @@ class _Assets {
   final splash_img = 'assets/images/splash_img.png';
   final welcome_img = 'assets/images/basket-of-fruit-cartoon.png';
   final authentification_img = 'assets/images/kisspng-fruit-basket.png';
-  final food_img = 'assets/images/Glowing-Berry-Fruit-Salad.png';
+  final food_img = 'assets/images/Honey-Lime-Peach-Fruit-Salad.png';
+  final panier = 'assets/images/panier.png';
+  final filter1 = 'assets/images/filter1.png';
+  final filter2 = 'assets/images/filter2.png';
+  final search = 'assets/images/search.png';
+  final food_img1 = 'assets/images/food_img1.png';
+  final food_img2 = 'assets/images/food_img2.png';
 }
 
 class _Style {

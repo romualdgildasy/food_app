@@ -5,28 +5,28 @@ class CTextfield extends StatelessWidget {
   final Color? backgroundColor;
   final String? hint;
   final double? raduis;
-  final FontWeight ? fontWeight;
+  final Widget? prefix;
 
   const CTextfield({
-    super.key,
+    Key? key,
     this.backgroundColor,
     this.hint,
     this.raduis = 15,
-    this.fontWeight,
-  });
- 
+    this.prefix,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       decoration: InputDecoration(
         filled: true,
         fillColor: backgroundColor ?? Config.colors.backgroundTextField,
-        border: OutlineInputBorder(borderSide: BorderSide.none, borderRadius: BorderRadius.circular(raduis ?? 15)),
         hintText: hint,
-        hintStyle: TextStyle(
-          color: Config.colors.hintColor,
-          fontSize: 20,
-          fontWeight: fontWeight,
+        hintStyle: TextStyle(color: Config.colors.hintColor, fontSize: 20),
+        prefixIcon: prefix,
+        border: OutlineInputBorder(
+          borderSide: BorderSide.none,
+          borderRadius: BorderRadius.circular(raduis ?? 15),
         ),
       ),
     );

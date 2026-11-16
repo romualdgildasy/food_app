@@ -47,7 +47,6 @@ class Authentification extends StatelessWidget {
                     ),
                   CTextfield(
                     hint: "Enter your firstname...",
-                    fontWeight: FontWeight.w500,
                     ),
                   SizedBox(
                     height: 50
